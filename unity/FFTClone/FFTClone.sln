@@ -1,15 +1,23 @@
-﻿
 Microsoft Visual Studio Solution File, Format Version 11.00
-# Visual Studio 2010
+# Visual Studio 2008
+
+Project("{66E5D3C6-B21E-A154-7025-81A8B4223E9F}") = "FFTClone", "Assembly-CSharp.csproj", "{38EA79B9-1956-69A6-42D7-AABE4ACF59EE}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		
+		{38EA79B9-1956-69A6-42D7-AABE4ACF59EE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{38EA79B9-1956-69A6-42D7-AABE4ACF59EE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{38EA79B9-1956-69A6-42D7-AABE4ACF59EE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{38EA79B9-1956-69A6-42D7-AABE4ACF59EE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
-	GlobalSection(MonoDevelopProperties) = preSolution
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+			GlobalSection(MonoDevelopProperties) = preSolution
 		Policies = $0
 		$0.TextStylePolicy = $1
 		$1.inheritsSet = null
@@ -160,7 +168,5 @@ Global
 		$30.LineAlign = 0
 		$29.inheritsSet = Mono
 	EndGlobalSection
-	GlobalSection(SolutionProperties) = preSolution
-		HideSolutionNode = FALSE
-	EndGlobalSection
+
 EndGlobal
