@@ -15,8 +15,11 @@ public class ClickAndMove : MonoBehaviour {
 		numberOfClicks++;
 		Debug.Log ("Clicked on box. Count is: " + numberOfClicks);
 		if (numberOfClicks % 2 == 0) {
-			Debug.Log("Moving down.");
-			amountToMove = 1
+			Debug.Log ("Moving down.");
+
+		} else {
+			Debug.Log("Moving up.");
+
 		}
 	}
 
