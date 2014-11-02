@@ -1,7 +1,7 @@
 Microsoft Visual Studio Solution File, Format Version 11.00
 # Visual Studio 2008
 
-Project("{66E5D3C6-B21E-A154-7025-81A8B4223E9F}") = "FFTClone", "Assembly-CSharp-vs.csproj", "{38EA79B9-1956-69A6-42D7-AABE4ACF59EE}"
+Project("{66E5D3C6-B21E-A154-7025-81A8B4223E9F}") = "FFTClone", "Assembly-CSharp.csproj", "{38EA79B9-1956-69A6-42D7-AABE4ACF59EE}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -17,7 +17,7 @@ Global
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
-																		GlobalSection(MonoDevelopProperties) = preSolution
+																			GlobalSection(MonoDevelopProperties) = preSolution
 		Policies = $0
 		$0.TextStylePolicy = $1
 		$1.inheritsSet = null
