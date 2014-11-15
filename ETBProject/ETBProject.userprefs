@@ -1,12 +1,15 @@
 ﻿<Properties>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.Workbench ActiveDocument="Assets\ClickAndMove.cs">
     <Files>
-      <File FileName="Assets\ClickAndMove.cs" Line="11" Column="22" />
+      <File FileName="Assets\ClickAndMove.cs" Line="14" Column="2" />
+      <File FileName="Assets\ClickAndMove.cs" Line="17" Column="54" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore />
+    <BreakpointStore>
+      <Breakpoint file="C:\GITHUB\EpicTacticalBattle\ETBProject\Assets\ClickAndMove.cs" line="21" />
+    </BreakpointStore>
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
 </Properties>
