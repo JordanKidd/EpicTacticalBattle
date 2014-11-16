@@ -4,7 +4,6 @@ using System.Collections;
 public class ClickAndMove : MonoBehaviour {
 
 	private int numberOfClicks;
-	private int amountToMove;
 	private bool grounded = false;
 
 	// Use this for initialization
@@ -14,11 +13,11 @@ public class ClickAndMove : MonoBehaviour {
 
 	void OnMouseDown() {
 		numberOfClicks++;
-		Debug.Log ("Clicked on box. Count is: " + numberOfClicks);
+		Debug.Log("Clicked on box. Count is: " + numberOfClicks);
 		if(grounded) {
 			grounded = false;
-			if (numberOfClicks % 2 == 0) {
-				Debug.Log ("Box hop.");
+			if(numberOfClicks % 2 == 0) {
+				Debug.Log("Box hop.");
 				this.rigidbody.AddForce(Vector3.up * 120);
 			} else {
 				Debug.Log("Box leap.");
@@ -29,6 +28,7 @@ public class ClickAndMove : MonoBehaviour {
 
 	// Update is called once per frame
 	void Update () {
+
 	}
 
 	void OnCollisionEnter(Collision collision){
